@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\BreakTime;
+use App\Models\Rest;
 use Illuminate\Http\Request;
 
-class BreakController extends Controller
+class RestController extends Controller
 {
     //
 }
