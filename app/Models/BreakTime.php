@@ -11,6 +11,6 @@ class BreakTime extends Model
 
     public function attendance()
     {
-        return $this->hasMany('App\Models\Attendance');
+        return $this->belongsTo('App\Models\Attendance');
     }
 }
