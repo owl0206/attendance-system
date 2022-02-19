@@ -9,7 +9,8 @@ class Attendance extends Model
 {
     use HasFactory;
 
-    public function users(){
-        return $this->hasMany('App\Models\User');
+    public function users()
+    {
+        return $this->belongsTo('App\Models\User');
     }
 }
